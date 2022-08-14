@@ -1,0 +1,376 @@
+{
+  "tiles": [
+    {
+      "type": "property",
+      "id": "balch"
+    },
+    {
+      "type": "property",
+      "id": "townhouses"
+    },
+    {
+      "type": "property",
+      "id": "dickson"
+    },
+    {
+      "type": "property",
+      "id": "observatory"
+    },
+    {
+      "type": "property",
+      "id": "beebelake"
+    },
+    {
+      "type": "property",
+      "id": "nasties"
+    },
+    {
+      "type": "property",
+      "id": "bethe"
+    },
+    {
+      "type": "property",
+      "id": "MAC"
+    },
+    {
+      "type": "fine",
+      "amount": 80
+    },
+    {
+      "type": "property",
+      "id": "casc"
+    },
+    {
+      "type": "property",
+      "id": "noyes"
+    },
+    {
+      "type": "go to duff",
+      "id": "go to duff"
+    },
+    {
+      "type": "fine",
+      "amount": 50
+    },
+    {
+      "type": "property",
+      "id": "trillium"
+    },
+    {
+      "type": "property",
+      "id": "mattins"
+    },
+    {
+      "type": "property",
+      "id": "terrace"
+    },
+    {
+      "type": "property",
+      "id": "cocktaillounge"
+    },
+    {
+      "type": "property",
+      "id": "mann"
+    },
+    {
+      "type": "property",
+      "id": "olinstacks"
+    },
+    {
+      "type": "duff",
+      "id": "duff"
+    },
+    {
+      "type": "fine",
+      "amount": 20
+    }
+  ],
+  "properties": [
+    {
+      "id": "balch",
+      "position": 0,
+      "name": "Balch",
+      "cost": 60,
+      "rent": [
+        2,
+        10,
+        30,
+        90,
+        160,
+        250
+      ],
+      "house": 50,
+      "group": "brown",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "townhouses",
+      "position": 1,
+      "name": "Town houses",
+      "cost": 60,
+      "rent": [
+        4,
+        20,
+        60,
+        180,
+        320,
+        450
+      ],
+      "house": 50,
+      "group": "brown",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "dickson",
+      "position": 2,
+      "name": "Dickson",
+      "cost": 200,
+      "rent": [
+        25,
+        50,
+        100,
+        200
+      ],
+      "house": 0,
+      "group": "brown",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "observatory",
+      "position": 3,
+      "name": "Observatory",
+      "cost": 100,
+      "rent": [
+        6,
+        30,
+        90,
+        270,
+        400,
+        550
+      ],
+      "house": 50,
+      "group": "green",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "beebelake",
+      "position": 4,
+      "name": "Beebe Lake",
+      "cost": 100,
+      "rent": [
+        6,
+        30,
+        90,
+        270,
+        400,
+        550
+      ],
+      "house": 50,
+      "group": "green",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "nasties",
+      "position": 5,
+      "name": "Nasties",
+      "cost": 120,
+      "rent": [
+        8,
+        40,
+        100,
+        300,
+        450,
+        600
+      ],
+      "house": 50,
+      "group": "green",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "bethe",
+      "position": 6,
+      "name": "Hans Bethe House",
+      "cost": 140,
+      "rent": [
+        10,
+        50,
+        150,
+        450,
+        625,
+        750
+      ],
+      "house": 100,
+      "group": "blue",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "MAC",
+      "position": 7,
+      "name": "MU ALPHA CHI",
+      "cost": 140,
+      "rent": [
+        10,
+        50,
+        150,
+        450,
+        625,
+        750
+      ],
+      "house": 100,
+      "group": "blue",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "casc",
+      "position": 8,
+      "name": "Cascadilla",
+      "cost": 160,
+      "rent": [
+        12,
+        60,
+        180,
+        500,
+        700,
+        900
+      ],
+      "house": 100,
+      "group": "blue",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "noyes",
+      "position": 9,
+      "name": "Noyes",
+      "cost": 180,
+      "rent": [
+        14,
+        70,
+        200,
+        550,
+        750,
+        950
+      ],
+      "house": 100,
+      "group": "orange",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "trillium",
+      "position": 10,
+      "name": "Trillium",
+      "cost": 220,
+      "rent": [
+        18,
+        90,
+        250,
+        700,
+        875,
+        1050
+      ],
+      "house": 150,
+      "group": "pink",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "mattins",
+      "position": 11,
+      "name": "Mattin's",
+      "cost": 220,
+      "rent": [
+        18,
+        90,
+        250,
+        700,
+        875,
+        1050
+      ],
+      "house": 150,
+      "group": "pink",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "terrace",
+      "position": 12,
+      "name": "Terrace",
+      "cost": 240,
+      "rent": [
+        20,
+        100,
+        300,
+        750,
+        925,
+        1100
+      ],
+      "house": 150,
+      "group": "pink",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "cocktaillounge",
+      "position": 13,
+      "name": "Cocktail Lounge",
+      "cost": 260,
+      "rent": [
+        22,
+        110,
+        330,
+        800,
+        975,
+        1150
+      ],
+      "house": 150,
+      "group": "yellow",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "mann",
+      "position": 14,
+      "name": "Mann Library",
+      "cost": 260,
+      "rent": [
+        22,
+        110,
+        330,
+        800,
+        975,
+        1150
+      ],
+      "house": 150,
+      "group": "yellow",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "olinstacks",
+      "position": 15,
+      "name": "Olin Stacks",
+      "cost": 280,
+      "rent": [
+        24,
+        120,
+        360,
+        850,
+        1025,
+        1200
+      ],
+      "house": 150,
+      "group": "yellow",
+      "owner": -1,
+      "buildings": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+(library
+ (name game)
+ (public_name Game)
+ (libraries
+  ANSITerminal
+  yojson
+  ounit2
+  camlimages.graphics
+  camlimages.png
+  unix))

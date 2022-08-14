@@ -1,0 +1,507 @@
+{ "tiles" : [
+  {"type": "monetary", "amount": 200, "name": "GO! Collect 200"},
+  {"type": "property", "id": "mediterranean"},
+  {"type": "card", "cardtype": "communitychest"},
+  {"type": "property", "id": "baltic"},
+  {"type": "monetary", "amount": -200, "name": "Income Tax: Pay 200"},
+  {"type": "property", "id": "reading"},
+  {"type": "property", "id": "oriental"},
+  {"type": "card", "cardtype": "chance"},
+  {"type": "property", "id": "vermont"},
+  {"type": "property", "id": "connecticut"},
+  {"type": "jail"},
+  {"type": "property", "id": "stcharles"},
+  {"type": "property", "id": "electric"},
+  {"type": "property", "id": "states"},
+  {"type": "property", "id": "virginia"},
+  {"type": "property", "id": "pennsylvania"},
+  {"type": "property", "id": "stjames"},  
+  {"type": "card", "cardtype": "communitychest"},
+  {"type": "property", "id": "tennessee"},
+  {"type": "property", "id": "newyork"},
+  {"type": "monetary", "amount": 0, "name": "Free Parking"},
+  {"type": "property", "id": "kentucky"},
+  {"type": "card", "cardtype": "chance"},
+  {"type": "property", "id": "indiana"},
+  {"type": "property", "id": "illinois"},
+  {"type": "property", "id": "bando"},
+  {"type": "property", "id": "atlantic"},
+  {"type": "property", "id": "ventnor"},
+  {"type": "property", "id": "waterworks"},
+  {"type": "property", "id": "marvin"},
+  {"type": "gotojail"},
+  {"type": "property", "id": "pacific"},
+  {"type": "property", "id": "northcarolina"},
+  {"type": "card", "cardtype": "communitychest"},
+  {"type": "property", "id": "pennsylvaniaave"},
+  {"type": "property", "id": "shortline"},
+  {"type": "card", "cardtype": "chance"},
+  {"type": "property", "id": "parkplace"},
+  {"type": "monetary", "amount": -100, "name": "Luxury Tax: Pay 100"},
+  {"type": "property", "id": "boardwalk"}
+],
+  "properties" : [
+  {
+    "id": "mediterranean",
+    "name": "Mediterranean Ave",
+    "cost": 60,
+    "rent": [2, 10, 30, 90, 160, 250],
+    "house": 50,
+    "group": "purple",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "baltic",
+    "name": "Baltic Ave",
+    "cost": 60,
+    "rent": [4, 20, 60, 180, 320, 450],
+    "house": 50,
+    "group": "purple",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "reading",
+    "name": "Reading Railroad",
+    "cost": 200,
+    "rent": [25, 50, 100, 200],
+    "house": 0,
+    "group": "railroad",
+    "owner": -1,  
+    "buildings": 0
+  },
+  {
+    "id": "oriental",
+    "name": "Oriental Ave",
+    "cost": 100,
+    "rent": [6, 30, 90, 270, 400, 550],
+    "house": 50,
+    "group": "lightblue",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "vermont",
+    "name": "Vermont Ave",
+    "cost": 100,
+    "rent": [6, 30, 90, 270, 400, 550],
+    "house": 50,
+    "group": "lightblue",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "connecticut",
+    "name": "Connecticut Ave",
+    "cost": 120,
+    "rent": [8, 40, 100, 300, 450, 600],
+    "house": 50,
+    "group": "lightblue",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "connecticut",
+    "name": "Connecticut Ave",
+    "cost": 120,
+    "rent": [8, 40, 100, 300, 450, 600],
+    "house": 50,
+    "group": "lightblue",
+    "owner": -1, 
+    "buildings": 0
+  },
+
+  {
+    "id": "stcharles",
+    "name": "St. Charles Place",
+    "cost": 140,
+    "rent": [10, 50, 150, 450, 625, 750],
+    "house": 100,
+    "group": "magenta",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "electric",
+    "name": "Electric Company",
+    "cost": 150,
+    "rent": [30, 70],
+    "house": 150,
+    "group": "utility",
+    "owner": -1,
+    "buildings": 0
+  },
+  {
+    "id": "states",
+    "name": "States Ave",
+    "cost": 140,
+    "rent": [10, 50, 150, 450, 625, 750],
+    "house": 100,
+    "group": "magenta",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "virginia",
+    "name": "Virginia Ave",
+    "cost": 160,
+    "rent": [12, 60, 180, 500, 700, 900],
+    "house": 100,
+    "group": "magenta",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "pennsylvania",
+    "name": "Pennsylvania Railroad",
+    "cost": 200,
+    "rent": [25, 50, 100, 200],
+    "house": 0,
+    "group": "railroad",
+    "owner": -1,
+    "buildings": 0
+  },
+  {
+    "id": "stjames",
+    "name": "St. James Place",
+    "cost": 180,
+    "rent": [14, 70, 200, 550, 750, 950],
+    "house": 100,
+    "group": "orange",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "tennessee",
+    "name": "Tennessee Ave",
+    "cost": 180,
+    "rent": [14, 70, 200, 550, 750, 950],
+    "house": 100,
+    "group": "orange",
+    "owner": -1, 
+    "buildings": 0
+  }, 
+  {
+    "id": "newyork",
+    "name": "New York Ave",
+    "cost": 200,
+    "rent": [16, 80, 220, 600, 800, 1000],
+    "house": 100,
+    "group": "orange",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "kentucky",
+    "name": "Kentucky Ave",
+    "cost": 220,
+    "rent": [18, 90, 250, 700, 875, 1050],
+    "house": 150,
+    "group": "red",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "indiana",
+    "name": "Indiana Ave",
+    "cost": 220,
+    "rent": [18, 90, 250, 700, 875, 1050],
+    "house": 150,
+    "group": "red",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "illinois",
+    "name": "Illinois Ave",
+    "cost": 240,
+    "rent": [20, 100, 300, 750, 925, 1100],
+    "house": 150,
+    "group": "red",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "bando",
+    "name": "B & O Railroad",
+    "cost": 200,
+    "rent": [25, 50, 100, 200],
+    "house": 0,
+    "group": "railroad",
+    "owner": -1,
+    "buildings": 0
+  },
+  {
+    "id": "atlantic",
+    "name": "Atlantic Ave",
+    "cost": 260,
+    "rent": [22, 110, 330, 800, 975, 1150],
+    "house": 150,
+    "group": "yellow",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "ventnor",
+    "name": "Ventnor Ave",
+    "cost": 260,
+    "rent": [22, 110, 330, 800, 975, 1150],
+    "house": 150,
+    "group": "yellow",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "waterworks",
+    "name": "Water Works",
+    "cost": 150,
+    "rent": [30, 70],
+    "house": 150,
+    "group": "utility",
+    "owner": -1,
+    "buildings": 0
+  },
+  {
+    "id": "marvin",
+    "name": "Marvin Gardens",
+    "cost": 280,
+    "rent": [24, 120, 360, 850, 1025, 1200],
+    "house": 150,
+    "group": "yellow",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "pacific",
+    "name": "Pacific Ave",
+    "cost": 300,
+    "rent": [26, 130, 390, 900, 1100, 1275],
+    "house": 200,
+    "group": "green",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "northcarolina",
+    "name": "North Carolina Ave",
+    "cost": 300,
+    "rent": [26, 130, 390, 900, 1100, 1275],
+    "house": 200,
+    "group": "green",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "pennsylvaniaave",
+    "name": "Pennsylvania Ave",
+    "cost": 320,
+    "rent": [28, 150, 450, 1000, 1200, 1400],
+    "house": 200,
+    "group": "green",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "shortline",
+    "name": "Short Line Railroad",
+    "cost": 200,
+    "rent": [25, 50, 100, 200],
+    "house": 0,
+    "group": "railroad",
+    "owner": -1,
+    "buildings": 0
+  },
+  {
+    "id": "parkplace",
+    "name": "Park Place",
+    "position": 35,
+    "cost": 350,
+    "rent": [35, 175, 500, 1100, 1300, 1500],
+    "house": 200,
+    "group": "darkblue",
+    "owner": -1, 
+    "buildings": 0
+  },
+  {
+    "id": "boardwalk",
+    "name": "Boardwalk",
+    "position": 37,
+    "cost": 400,
+    "rent": [50, 200, 600, 1400, 1700, 2000],
+    "house": 200,
+    "group": "darkblue",
+    "owner": -1, 
+    "buildings": 0
+  } 
+],
+"start money": 1500,
+"start tile": "go",
+"corners": ["go", "jail", "Free Parking", "gotojail"],
+"cards": [{
+  "id": "chance",
+  "cards": [{
+    "description": "Advance to Illinois Ave—If you pass Go, collect $200",
+    "effect": "MoveTile",
+    "id": "illinois",
+    "amount": 0
+  }, 
+  {
+    "description": "Advance to St. Charles Place – If you pass Go, collect $200",
+    "effect": "MoveTile",
+    "id": "stcharles",
+    "amount": 0
+  },
+  {
+    "description": "Advance token to Electric Company. If unowned, you may buy it from the Bank. If owned, throw dice and pay owner a total ten times the amount thrown.",
+    "effect": "MoveTilePay",
+    "id": "electric",
+    "amount": 10
+  },
+  {
+    "description": "Advance token to Reading Railroad and pay owner twice the rental to which he/she {he} is otherwise entitled. If Railroad is unowned, you may buy it from the Bank.",
+    "effect": "MoveTilePay",
+    "id": "reading",
+    "amount": 0
+  },
+  {
+    "description": "Bank pays you a dividend of $50.",
+    "effect": "Payment",
+    "id": "",
+    "amount": 50
+  },
+  {
+    "description": "Get Out of Jail Free", 
+    "effect": "GetOutOfJail",
+    "id": "",
+    "amount": 0
+  },
+  {
+    "description": "Go back 3 spaces",
+    "effect": "MoveTo",
+    "id": -3,
+    "amount": 0
+  },
+  {
+    "description": "Go to Jail",
+    "effect": "GoToJail",
+    "id": "jail",
+    "amount": 0
+  },
+  {
+    "description": "Make repairs to properties, pay $500",
+    "effect": "Payment",
+    "id": "",
+    "amount": -500
+  },
+  {
+    "description": "Pay poor tax of $15",
+    "effect": "Payment",
+    "id": "",
+    "amount": -15
+  },
+  {
+    "description": "Take a walk on the Boardwalk–Advance token to Boardwalk",
+    "effect": "MoveTile", 
+    "id": "boardwalk",
+    "amount": 0
+   },
+   {
+     "description": "You have been elected Chairman of the Board–Pay each player $50",
+     "effect": "PayEach",
+     "id": "",
+     "amount": -50
+   },
+   {
+     "description": "Your building and loan matures—Collect $150",
+     "effect": "Payment",
+     "id": "",
+     "amount": 150
+   },
+   {
+     "description": "You have won a crossword competition—Collect $100",
+     "effect": "Payment",
+     "id": "",
+     "amount": 100
+   }]
+}, 
+{
+  "id": "communitychest", 
+  "cards": [{
+    "description": "Bank error in your favor—Collect $200",
+    "effect": "Payment",
+    "amount": 200
+  },
+  {
+    "description": "Doctor's fee—Pay $50",
+    "effect": "Payment",
+    "amount": -50
+  },
+  {
+    "description": "From sale of stock you get $50",
+    "effect": "Payment",
+    "amount": 50
+  },
+  {
+    "description": "Get Out of Jail Free",
+    "effect": "GetOutOfJail",
+    "amount": 0
+  },
+  {
+    "description": "Go to Jail–Do not pass Go–Do not collect $200",
+    "effect": "GoToJail",
+    "amount": 0
+  },
+  {
+    "description": "Grand Opera Night—Collect $50 from every player for opening night seats",
+    "effect": "PayEach",
+    "amount": 50
+  },
+  {
+    "description": "Holiday Fund matures—Receive $100",
+    "effect": "Payment",
+    "amount": 100
+  },
+  {
+    "description": "Income tax refund–Collect $20",
+    "effect": "Payment",
+    "amount": 20
+  },
+  {
+    "description": "It is your birthday—Collect $10",
+    "effect": "Payment",
+    "amount": 10
+  },
+  {
+    "description": "Life insurance matures–Collect $100",
+    "effect": "Payment",
+    "amount": 100
+  },
+  {
+    "description": "Pay hospital fees of $100",
+    "effect": "Payment",
+    "amount": -100
+  },
+  {
+    "description": "Pay school fees of $150",
+    "effect": "Payment",
+    "amount": -150
+  },
+  {
+    "description": "Receive $25 consultancy fee",
+    "effect": "Payment",
+    "amount": 25
+  },
+  {
+    "description": "You have won second prize in a beauty contest–Collect $10",
+    "effect": "Payment",
+    "amount": 10
+  },
+  {
+    "description": "You inherit $100",
+    "effect": "Payment",
+    "amount": 100
+  }
+]
+}]
+}

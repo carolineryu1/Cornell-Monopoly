@@ -1,0 +1,124 @@
+{
+  "tiles": [
+    {
+      "type": "property",
+      "id": "balch"
+    },
+    {
+      "type": "property",
+      "id": "townhouses"
+    },
+    {
+      "type": "go to duff",
+      "id": "go to duff"
+    },
+    {
+      "type": "property",
+      "id": "cocktaillounge"
+    },
+    {
+      "type": "property",
+      "id": "mann"
+    },
+    {
+      "type": "property",
+      "id": "olinstacks"
+    },
+    {
+      "type": "duff",
+      "id": "duff"
+    }
+  ],
+  "properties": [
+    {
+      "id": "balch",
+      "position": 0,
+      "name": "Balch",
+      "cost": 60,
+      "rent": [
+        2,
+        10,
+        30,
+        90,
+        160,
+        250
+      ],
+      "house": 50,
+      "group": "brown",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "townhouses",
+      "position": 1,
+      "name": "Town houses",
+      "cost": 60,
+      "rent": [
+        4,
+        20,
+        60,
+        180,
+        320,
+        450
+      ],
+      "house": 50,
+      "group": "brown",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "cocktaillounge",
+      "position": 13,
+      "name": "Cocktail Lounge",
+      "cost": 260,
+      "rent": [
+        22,
+        110,
+        330,
+        800,
+        975,
+        1150
+      ],
+      "house": 150,
+      "group": "yellow",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "mann",
+      "position": 14,
+      "name": "Mann Library",
+      "cost": 260,
+      "rent": [
+        22,
+        110,
+        330,
+        800,
+        975,
+        1150
+      ],
+      "house": 150,
+      "group": "yellow",
+      "owner": -1,
+      "buildings": 0
+    },
+    {
+      "id": "olinstacks",
+      "position": 15,
+      "name": "Olin Stacks",
+      "cost": 280,
+      "rent": [
+        24,
+        120,
+        360,
+        850,
+        1025,
+        1200
+      ],
+      "house": 150,
+      "group": "yellow",
+      "owner": -1,
+      "buildings": 0
+    }
+  ]
+}
